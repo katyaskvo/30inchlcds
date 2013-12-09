@@ -1,0 +1,81 @@
+@charset "UTF-8";html {height: 100%;} * {	margin:0;	padding:0;}body {	font: 100% Verdana;	background:url(img/2560x1600bgd.gif) no-repeat rgb(64,64,64);	margin: 0; 	padding: 0 20px 0 0;	text-align: center; 	color:#000;}img {	border:0 none;}.paragraph {	font-size:14px;	color:rgb(246,214,144);	margin:20px;}.paragraph a {	color:#CFC;}.shifted {	/*margin-left:30px;*/	text-align:center;}#container {	background:rgb(64,64,64);	margin: 0 auto;	text-align: left;	width:100%;}
+
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+#header {	/*background:rgb(64,64,64);*/	width:100%;	min-width:1000px;}#logo{ 	background: url(img/30inchlcds-logo.jpg) 0 0 no-repeat; 	height: 125px;	width:1000px;	margin: 0 auto;} 
+#mainContent {	margin:20px auto;	width:740px;
+	display: block;
+	background-color: #FFFFFF;
+	padding: 30px;
+	-moz-border-radius-top-left: 15px;
+	border-top-left-radius: 15px;
+	-moz-border-radius-top-right: 15px;
+	border-top-right-radius: 15px;
+	-moz-border-radius-bottom-left: 15px;
+	border-bottom-left-radius: 15px;
+	-moz-border-radius-bottom-right: 15px;
+	border-bottom-right-radius: 15px;}
+
+#leftcolumn {
+	font-size: 12px;
+	width: 350px;
+	float:left;
+}
+
+#images {
+	margin-bottom:20px;
+}
+table {	font-size: 12px;	background:rgb(64,64,64);
+	float:right;}	
+tr:hover td {	background-color:#F6D690;}tr:hover th {	background-color:#F6D690;}td {	background-color:#C5C5C5;	width:168px;	padding:6px 10px 6px 10px;	vertical-align:top;}tr.unhover:hover td, tr.unhover:hover th {	background-color:#FFFFFF;}th {	padding:6px 10px 6px 10px;	background-color:#C5C5C5;}.whiteright {	text-align:right;	background-color:#FFF;} .right {	text-align:right;}.lightgreyright {	text-align:right;	background-color:#DFDFDF;}.lightgrey {	background-color:#DFDFDF;}.white {	background-color:#FFF;}.brand {	background-color:#FFF;	font-weight:800;	text-align:center;	padding-bottom:10px;}.brand img {	margin-bottom:-6px;	margin-left:6px;}.ports {	padding:0;	background:#DCDCDC;}.ports table {	background:#C5C5C5;}.tports {	background:#DCDCDC;}#footer { 	background:rgb(64,64,64);	width:100%;	margin:0 auto;	bottom: 0;    position:relative;} #logo-b {	background:url(img/30inchlcds-logo-b.jpg) no-repeat 0 0;	width:531px;	height:66px;	margin:0 auto;}.ads {	font-size:10px;	text-align:center;}.g-ads {	display:block;	/*height:20px;	background-color:#C5C5C5;	-moz-border-radius:11px;    border-radius:11px;	margin-left:20px;*/	text-align:center;	/*padding-top:4px;*/}
+
+span.tab {
+	padding: 0px 0px 0px 270px;
+}
+
+.biggertable {	
+	margin-top:20px;
+	}
+
+#wheretobuy {
+	margin: 20px 0px;
+}
+
+#galleria { 
+	margin-top: 20px;
+	width: 350px; 
+	height: 250px;
+	background: #FFFFFF; 
+}
+
+p {
+	margin-bottom:10px;
+}
+
+#back a {
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+#back a:link {
+	color:#000; 
+} 
+
+#back a:visited { 
+	color:#000; 
+} 
+
+#back a:hover {
+	color:#646464; 
+} 
+
+#back a:active { 
+	color:#000;
+}
