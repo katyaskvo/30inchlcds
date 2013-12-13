@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #404040;
+	font-family: Verdana, Helvetica, sans-serif;
+}
+header {
+	width: 1000px;
+	color: #F6D690;
+	font-size: 14px;
+	line-height: 1.5;
+	text-align: center;
+}
+header > h1 {
+	text-indent: -999999px;
+	width: 1000px;
+	height: 125px;
+	display: block;
+	background: url('img/30inchlcds-logo.jpg') 0 0 no-repeat; 
+}
