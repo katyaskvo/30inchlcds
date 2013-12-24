@@ -70,7 +70,7 @@ img {
 	min-width:1000px;
 }
 #logo{ 
-	background: url(../../../img/site-img/30inchlcds-logo.jpg) 0 0 no-repeat; 
+	background: url(../img/site-img/30inchlcds-logo.jpg) 0 0 no-repeat; 
 	height: 125px;
 	width:1000px;
 	margin: 0 auto;
@@ -187,7 +187,7 @@ th {
 	max-width: 100%;
 }
 #logo-b {
-	background:url(../../img/site-img/30inchlcds-logo-b.jpg) no-repeat 0 0;
+	background:url(../img/site-img/30inchlcds-logo-b.jpg) no-repeat 0 0;
 	width:531px;
 	height:66px;
 	margin:0 auto;
